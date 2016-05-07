@@ -1,12 +1,12 @@
 {
-    "name": "active-menu",
+    "name": "bootstrap-menu",
     "description" : "Facilitates the creation of menus in Node applications.",
-    "version": "0.1.2",
+    "version": "0.0.1",
     "repository": {
         "type": "git",
-        "url": "git://github.com/persata/active-menu.git"
+        "url": "git://github.com/andreash/bootstrap-menu"
     },
-    "author": "Ross Kinsman",
+    "author": "Andreas Hestermeyer",
     "license": "BSD",
     "readmeFilename": "README.md",
     "main": "index.js",
@@ -16,6 +16,6 @@
         "express"
     ],
     "dependencies": {
-        "html-sourcery" : "0.1.5"
+        "html-sourcery" : "*"
     }
 }
