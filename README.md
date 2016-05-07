@@ -1,19 +1,19 @@
-Active Menu
-=========
+Bootstrap Menu
+==============
 
 About
 ---------
 
-Active Menu is a module for NodeJS that facilitates the creation of menus in Node applications, specifically (but not limited to) Express.
+Bootstrap Menu is a module for NodeJS that facilitates the creation of menus in Node applications, specifically (but not limited to) Express.
 
-Inspired by the CMenu widget for the PHP framework Yii ([viewable here](http://www.yiiframework.com/doc/api/1.1/CMenu)) as well as the menu markup from Magento's top menu system.
+Inspired by the active-menu widget.
 
-The menu, when rendered will apply the proper `active` classes depending on the current route of the application. For example, when the user is on the route `/admin/posts`, the `<a>` tag and all parents of that tag (`<ul>` and `<li>`) will also be given the `active` class. This makes applying CSS for menu items which relate to the current route quite simple.
+The menu, when rendered will apply the proper bootstrap classes depending on the current route of the application. 
 
 Example
 ------------
 
-A simple example using Active Menu for a blog's admin panel:
+A simple example using Bootstrap Menu for a blog's admin panel:
 
     // Require Active Menu
     var activeMenu = require('active-menu');
